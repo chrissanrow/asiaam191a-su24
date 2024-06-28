@@ -57,15 +57,17 @@ p{
 
 .description{
     max-width: 60%;
+    padding: 1rem;
 }
 
 .portfolio {
     grid-area: portfolio; /* Assigns the portfolio section to its grid area */
-    flex: 1
+    flex: 1;
 }
 
 .lists{
     flex-direction: row;
+    padding: 1rem;
 }
 
 #map { 
