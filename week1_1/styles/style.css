@@ -70,11 +70,22 @@ p{
     padding: 1rem;
 }
 
+.popup-wrapper {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-size: 16px;
+    padding: 10px;
+}
+
 #map { 
     grid-area: map; /* Assigns the map section to its grid area */
     height: 80vh; /* Sets the map's height to 80% of the viewport height */
 }
 
-#footer { 
-    grid-area: footer; /* Assigns the footer to its grid area */
+#footer {
+    grid-area: footer;
+    padding: 1rem;
+    background-color: #898b8d; /* Sets a darker background for contrast */
+    color: #fff; /* Ensures text is readable against the dark background */
+    text-align: center; /* Centers the footer content */
 }

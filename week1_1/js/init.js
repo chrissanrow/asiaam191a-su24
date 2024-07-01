@@ -10,11 +10,11 @@ const map = new maplibregl.Map({
 const LTmarker = new maplibregl.Marker()
     .setLngLat([-118.241172, 34.049477])
     .setPopup(new maplibregl.Popup({ offset: 25 }) // Add popups
-        .setHTML('Little Tokyo! Went here almost every week in my senior year of high school.'))
+        .setHTML('<div class="popup-wrapper">Little Tokyo! Went here almost every week in my senior year of high school.</div>'))
     .addTo(map);
 
 const SGmarker = new maplibregl.Marker()
     .setLngLat([-118.091156, 34.078823])
     .setPopup(new maplibregl.Popup({ offset: 25 }) // Add popups
-        .setHTML('Alahambra/San Gabriel! Family always took me to the supermarkets and to get food here.'))
+        .setHTML('<div class="popup-wrapper">Alahambra/San Gabriel! Family always took me to the supermarkets and to get food here.</div>'))
     .addTo(map);
