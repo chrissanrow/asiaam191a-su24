@@ -8,7 +8,7 @@
 
 /* Sets the background color of the whole page and ensures content fits the screen height */
 html {
-    background-color: rgb(203, 204, 204); /* Sets a light blue background color */
+    background-color: rgb(229, 231, 226); /* Sets a light blue background color */
 }
 
 /* Applies to both <html> and <body> */
@@ -51,6 +51,11 @@ p{
     text-align: justify;
 }
 
+a{
+    color:rgb(61, 58, 75);
+    font-weight: bold;
+}
+
 .photo{
     max-width: 60%;
 }
@@ -63,6 +68,10 @@ p{
 .portfolio {
     grid-area: portfolio; /* Assigns the portfolio section to its grid area */
     flex: 1;
+}
+
+ul, ol{
+    padding-left: 20px;
 }
 
 .lists{

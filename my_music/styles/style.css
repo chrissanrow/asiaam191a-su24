@@ -1,0 +1,22 @@
+* {
+    font-family: Roboto; /* Sets a default font for the whole page */
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+}
+
+html{
+    background-color: rgb(229, 231, 226);
+}
+
+html, body{
+    padding: 1rem;
+}
+
+.lists{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recent-container{
+
+}
