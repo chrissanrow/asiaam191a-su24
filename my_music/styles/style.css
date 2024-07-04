@@ -10,6 +10,7 @@ html{
 
 html, body{
     padding: 1rem;
+    flex-direction: column;
 }
 
 .lists{
@@ -18,5 +19,40 @@ html, body{
 }
 
 .recent-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
+.album{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.album-cover{
+    width: 100%;
+}
+
+.album-title{
+    text-align: center;
+}
+
+.artist{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.artist-cover{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.artist-title{
+    text-align: center;
+}
+
+a{
+    color: black;
 }
