@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chris Sanrow's Portfolio</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css">
+
+        <!-- MapLibreGL's JavaScript-->
+        <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+        
+        <!-- importing google fonts api for roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            Portfolio
+            <!-- hint: majority of your lab assignment can go here -->
+        </header>
+        <main>
+            <div class="portfolio">
+                <!-- Portfolio content goes here -->
+                <h1>Chris Sanrow</h1>
+                <img src="images\me.JPEG" alt="selfie of Chris" class="photo">
+                <div id="contents"></div>
+                <div class="description">
+                    <p>
+                        I'm a nonbinary Computer Science major and Digital Humanities minor at UCLA!
+                        I love listening to music, going to concerts, and playing guitar.
+                        I hope to master critical digital map making in order to serve activist causes that I am passionate about!
+                    </p>
+                </div>
+                <div class="lists">
+                    <div>
+                        <h3>Causes I'm Especially Interested in</h3>
+                        <ul>
+                            <li>
+                                LGBTQIA+
+                            </li>
+                            <li>
+                                Sustainability in fashion
+                            </li>
+                            <li>
+                                SEA space
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Favorite Artists Right Now</h3>
+                        <ol>
+                            <li>
+                                <a href="https://open.spotify.com/artist/6qWQ49hbX08ZLyRABxaasl?si=Vccrle4HQ_yI74Jk098m6A">
+                                    Flat7
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://open.spotify.com/artist/0WaGvrYLTIEpc4pjdgETP6?si=3__exPZ0SzOz_7Yf7GijPg">
+                                    Kiyrano
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://open.spotify.com/artist/4nlqDmbzFzbNITaqjJv7D7?si=NRaauIM3TRaksdsAxwYlzw">
+                                    The Sundays
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://chrissanrow.github.io/asiaam191a-su24/my_music/">
+                                    More music I enjoy...
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>
+                    Favorite places in LA:
+                </h2>
+                <div id="map">
+                    <!-- Map will be inserted here -->
+                </div>
+            </div>
+        </main>
+        <div id="footer">
+            Copyright(2024)
+        </div>
+        <script src = "js/init.js"></script>
+    </body>
+</html>
